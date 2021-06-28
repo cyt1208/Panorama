@@ -259,7 +259,7 @@ Will the same algorithm for computing homography work with different projections
 
 Does homography even exist in the cylindrical and spherical case?
 
-## 5 Making panoramas and extra credit ##
+## 5 Making panoramas ##
 
 #### 5.1 Make some panoramas ####
 In order to get perfect grade you not only need to implement each feature of the algorithm but be able to run it to stitch multiple images together. We have provided the program `make-panorama` that can calls your basic function `make_panorama` to create complex panoramas. You would need to choose the parameters of your algorithm. Make sure that the parameters are such that your algorithm can stitch complex panos. If necessary use the `panorama` GUI to help with parameter choosing. Some of the functions are implemented there and some not. For `sun` and `helens` you have to choose the order of stitching yourself. At the end you should make the necessary changes to `panorama.cpp` so that when we call
