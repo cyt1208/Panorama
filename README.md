@@ -1,20 +1,8 @@
 ![panorama of field](figs/columbia-all.jpg)
 
-#### NEW: Visual studio solutions provided. More info in section 0.5 ####
-
-# CSE 576 Homework 5 #
-
-Welcome friends,
-
-It's time for assignment 2! This one may be a little harder than the last one so remember to start early and start often!
-
-Copy your `process_image.cpp`, `filter_image.cpp`, and `resize_image.cpp` from HW1 and HW2. You can use `./test1`, `test2` to test your previous code as well. Also `./test5` is provided which is a sample driver program and does some basic tests and runs most parts of your algorithm. If `./test5` runs without errors and produces some panoramic images as well as good matches then it's a good chance that you are about 75% done.
-
-If you want to remove timing information, add `#define TIME(a)` at the end of `utils.h`
-
 ## Let's make a panorama! ##
 
-This homework covers a lot, including finding keypoints in an image, describing those key points, matching them to those points in another image, computing the transform from one image to the other, and stitching them together into a panorama.
+This project is based on CSE576 final project, including finding keypoints in an image, describing those key points, matching them to those points in another image, computing the transform from one image to the other, and stitching them together into a panorama.
 
 The high-level algorithm is already done for you! You can find it near the bottom of `src/panorama_image.cpp`, it looks approximately like:
 
@@ -284,53 +272,3 @@ In order to get perfect grade you not only need to implement each feature of the
 
 We get `output/XXX/all.png` that looks stiched well (small imperfection such as in `columbia-all.jpg` are acceptable).
 
-#### 5.2 Extra credit ####
-1. Implement exact 2nd eigenvalue! - 5pts.
-2. Implement spherical projection! - 5pts.
-3. Make panorama with all at least a set of 8 pics of yours. - 5 pts. You might need to tweak the parameters, such as the focal length when loading the images and the projection that you want to produce the images in. For that you might want to use the GUI tools to see your results in realtime. Or use this link: [How to measure focal length.](https://www.lightandmatter.org/2015/tech-photography-articles/how-to-calculate-a-lens-focal-length-slightly-simplified/). Make sure you convert your measurements to pixels as opposed to millimeters. Additionally you can refer to Rick's textbook, chapter 11.1.3 on how to use homography to calculate the focal length.
-
-#### 5.3 For Fun ####
-Play with `make-panorama wall/cse/columbia`. Can you stitch them? If not why? Is it because of bad projections? Try `wall`. This contains archaeological writings from the last few years and makes for a nice flat panorama. Remember, homography should only work on flat surfaces!! Try stitching any two overlapping images. Notice how perfect the stitching is?? Now try to do more! Notice any problems? Why is that? Do we need better features (sift?) ? Why does geometry looks so distorted?? Wasn't homography fine for flat surfaces? What's going on?? Can you figure out a way to fix it?
-
-You are not graded on this, but highly recommended to play with those. It'll help you get a lot of intuition about cameras, 3d/2d geometry and projections and features. Making a panorama software has so many components!!
-
-
-## 6 Turn it in and Grading ##
-
-#### 6.1 What to turn in ####
-You should have to modify only `harris_image.cpp`, `panorama_image.cpp` and `test\panorama.cpp`. You should submit just these 3 files and your optional panorama. We are going to test each function separately to give you partial credit.
-
-#### 6.2 Grading ####
-    make_1d_gaussian     3
-    smooth_image         5
-    structure_matrix     6
-    cornerness_response  3
-    nms_image            3
-    detect_corners       4
-                        24
-
-    l1_distance              1
-    match_descriptors_a2b    5
-    match_descriptors        5
-    project_point            3
-    point_distance           1
-    model_inliers            5
-    randomize_matches        2
-    compute_homography_ba    8
-    RANSAC                   8
-    combine_images           11
-    cylindrical_project      7
-                            56
-
-    ./make-panorama rainier    4 (easy case, have to stitch all of them)
-    ./make-panorama sun        4 (easy case, have to stitch all of them)
-    ./make-panorama helens     4 (easy case, have to stitch all of them)
-    ./make-panorama field      4 (harder, have to stitch just 6 of them, using cylindrical)
-    ./make-panorama columbia   4 (this is harder, but if your implementation is good you would get a big mountain panorama)
-                              20
-
-    EXTRA CREDIT:
-
-    spherical_project            5  OPTIONAL                         
-    exact_eigenvalue,method=1    5  OPTIONAL
-    your panorama                5 OPTIONAL
