@@ -1,0 +1,12 @@
+﻿  test1.cpp
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\utils.h(22): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\test\test1.cpp(61): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\test\test1.cpp(63): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\test\test1.cpp(65): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1216,5): warning MSB8012: TargetPath(C:\Users\TaoP\CSE576\HW5\cse576_sp20_hw5\vs\cse576-hw5\x64\Release\test1.exe) does not match the Linker's OutputFile property value (C:\Users\TaoP\CSE576\HW5\cse576_sp20_hw5\test1.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+  Generating code
+  0 of 319 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  test1.vcxproj -> C:\Users\TaoP\CSE576\HW5\cse576_sp20_hw5\vs\cse576-hw5\x64\Release\test1.exe

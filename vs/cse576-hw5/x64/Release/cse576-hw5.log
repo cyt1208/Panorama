@@ -1,0 +1,96 @@
+﻿  filter_image.cpp
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\utils.h(22): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\filter_image.cpp(44): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\filter_image.cpp(149): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\filter_image.cpp(149): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\filter_image.cpp(153): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\filter_image.cpp(162): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\filter_image.cpp(263): warning C4305: 'initializing': truncation from '__int64' to 'float'
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\filter_image.cpp(264): warning C4305: 'initializing': truncation from '__int64' to 'float'
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\filter_image.cpp(337): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\filter_image.cpp(356): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  harris_image.cpp
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\utils.h(22): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\harris_image.cpp(40): warning C4244: 'initializing': conversion from 'const double' to 'int', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\harris_image.cpp(41): warning C4244: 'initializing': conversion from 'const double' to 'int', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\harris_image.cpp(159): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  load_image.cpp
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\utils.h(22): warning C4305: 'initializing': truncation from 'double' to 'const float'
+  matrix.cpp
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\utils.h(22): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\matrix.cpp(204): warning C4244: 'argument': conversion from 'const double' to 'int', possible loss of data
+  panorama_image.cpp
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\utils.h(22): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\panorama_image.cpp(60): warning C4244: 'initializing': conversion from 'const double' to 'int', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\panorama_image.cpp(61): warning C4244: 'initializing': conversion from 'const double' to 'int', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\panorama_image.cpp(62): warning C4244: 'initializing': conversion from 'const double' to 'int', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\panorama_image.cpp(63): warning C4244: 'initializing': conversion from 'const double' to 'int', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\panorama_image.cpp(66): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\panorama_image.cpp(74): warning C4244: 'initializing': conversion from 'const double' to 'int', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\panorama_image.cpp(75): warning C4244: 'initializing': conversion from 'const double' to 'int', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\panorama_image.cpp(76): warning C4244: 'initializing': conversion from 'const double' to 'int', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\panorama_image.cpp(77): warning C4244: 'initializing': conversion from 'const double' to 'int', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\panorama_image.cpp(80): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\panorama_image.cpp(285): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\panorama_image.cpp(286): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\panorama_image.cpp(346): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\panorama_image.cpp(347): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\panorama_image.cpp(420): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\panorama_image.cpp(424): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\panorama_image.cpp(430): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\panorama_image.cpp(434): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\panorama_image.cpp(440): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\panorama_image.cpp(444): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\panorama_image.cpp(483): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\panorama_image.cpp(493): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\panorama_image.cpp(607): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\panorama_image.cpp(608): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\panorama_image.cpp(609): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\panorama_image.cpp(610): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\panorama_image.cpp(617): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\panorama_image.cpp(618): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\panorama_image.cpp(683): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\panorama_image.cpp(695): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\panorama_image.cpp(715): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\panorama_image.cpp(729): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  process_image.cpp
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\utils.h(22): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\process_image.cpp(20): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\process_image.cpp(155): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\process_image.cpp(157): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\process_image.cpp(202): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\process_image.cpp(203): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\process_image.cpp(204): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\process_image.cpp(210): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\process_image.cpp(211): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\process_image.cpp(212): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\process_image.cpp(217): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\process_image.cpp(219): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\process_image.cpp(225): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\process_image.cpp(252): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\process_image.cpp(254): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\process_image.cpp(255): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\process_image.cpp(260): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\process_image.cpp(266): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\process_image.cpp(267): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\process_image.cpp(268): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\process_image.cpp(269): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\process_image.cpp(270): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\process_image.cpp(271): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  resize_image.cpp
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\utils.h(22): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\resize_image.cpp(17): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\resize_image.cpp(18): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\resize_image.cpp(36): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\resize_image.cpp(37): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\resize_image.cpp(38): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\resize_image.cpp(39): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\resize_image.cpp(58): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\resize_image.cpp(59): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\resize_image.cpp(63): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\resize_image.cpp(83): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\resize_image.cpp(84): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\resize_image.cpp(88): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  utils.cpp
+c:\users\taop\cse576\hw5\cse576_sp20_hw5\src\utils.h(22): warning C4305: 'initializing': truncation from 'double' to 'const float'
+  cse576-hw5.vcxproj -> C:\Users\TaoP\CSE576\HW5\cse576_sp20_hw5\vs\cse576-hw5\x64\Release\uwimg++.lib
